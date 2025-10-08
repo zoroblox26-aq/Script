@@ -67,7 +67,7 @@ task.spawn(growImage)
 task.wait(duration)
 screenGui:Destroy()
 
-local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/realgengar/SpeedLegends-/refs/heads/main/RedzV5.Lua"))()
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/zoroblox26-aq/Script/refs/heads/main/RedzlibV5.txt"))()
 workspace.FallenPartsDestroyHeight = -math.huge
 
 local Window = redzlib:MakeWindow({
